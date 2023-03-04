@@ -19,8 +19,8 @@ A simple tool to regularly backup Ubiquiti Edge Router Configuration to github
     ```
 1. Configure SSH key
     ```
-    ssh-keygen -t ed25519 -C "edgerouter-ssh-key" -f /config/simple-edgeos-backup/edgerouter-ssh-key
-    chown 0600 /config/simple-edgeos-backup/edgerouter-ssh-key
+    ssh-keygen -t ed25519 -C "seosb-github-ssh-key" -f /config/simple-edgeos-backup/seosbackup.key
+    chown 0600 /config/simple-edgeos-backup/seosbackup.key
     ```
 1. Configure script
 1. Configure github ssh access

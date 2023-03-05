@@ -43,7 +43,7 @@ sudo cli-shell-api showConfig --show-commands --show-active-only --show-ignore-e
 sudo find /config/* | grep -v "/config/dhcpd.leases" | grep -v "seosbackup.key" | xargs tar czvf /tmp/simple-edgeos-backup/$FNAME_BACKUP.tar.gz &> /dev/null
 
 echo "simple-edgeos-backup: Triggering 'git commit'"
-cd /tmp/edgerouter-backup
+cd /tmp/simple-edgeos-backup
 git config user.email "${GITHUB_EMAIL}"
 git config user.name "${GITHUB_USER}"
 git add $FNAME_CONFIG

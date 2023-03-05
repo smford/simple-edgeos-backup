@@ -2,6 +2,9 @@
 
 A simple tool to regularly backup Ubiquiti Edge Router Configuration to github
 
+The inspiration and founding code has come from https://github.com/psitem/edgerouter-backup - thank you @psitem.  I needed to make a few changes from the original code at psitem/edgerouter-backup, and this is me capturing those changes.
+
+
 ## Installation
 
 1. SSH to your edge router

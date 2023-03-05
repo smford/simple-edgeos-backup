@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 INSTALLPATH="/config/simple-edgeos-backup"
 mkdir -p ${INSTALLPATH}
 
